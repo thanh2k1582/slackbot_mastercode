@@ -1,0 +1,78 @@
+{
+    "type":"view_submission",
+    "team":{"id":"T0322K34SMU","domain":"thezoboteacompanycorp"},
+    "user":{"id":"U032Z1RE56U","username":"thanhnv","name":"thanhnv","team_id":"T0322K34SMU"},
+    "api_app_id":"A032Z29GZ96",
+    "token":"zdtWbQN58pmgJCqtrFc192EE",
+    "trigger_id":"3090261731859.3070649162742.1e892777f5e6f0c9327bc66aaa91a00d",
+    "view":{"id":"V033BVB2KEU","team_id":"T0322K34SMU","type":"modal",
+        "blocks":[
+            {"type":"input","block_id":"my_block",
+                "label":{"type":"plain_text","text":"Full Name","emoji":true},
+                "optional":false,
+                "dispatch_action":false,
+                "element":{"type":"plain_text_input","action_id":"Fullname",
+                    "placeholder":{"type":"plain_text","text":"Nhập tên ","emoji":true},
+                    "dispatch_action_config":{"trigger_actions_on":["on_enter_pressed"]}
+                }
+            },
+            {"type":"section","block_id":"my_block2",
+                "text":{"type":"mrkdwn","text":"Ngày sinh","verbatim":false},
+                "accessory":{"type":"datepicker","action_id":"datepicker-action","initial_date":"1990-04-28",
+                    "placeholder":{"type":"plain_text","text":"Select a date","emoji":true}
+                }
+            },
+            {"type":"section","block_id":"my_block3",
+                "text":{"type":"mrkdwn","text":"Giới tính","verbatim":false},
+                "accessory":{"type":"radio_buttons","
+                options":[{
+                    "text":{"type":"mrkdwn","text":"nam","verbatim":false},
+                    "value":"value-0"
+                },{
+                    "text":{"type":"mrkdwn","text":"nữ","verbatim":false},
+                    "value":"value-1"},
+                {
+                    "text":{"type":"mrkdwn","text":"khác","verbatim":false},
+                    "value":"value-2"}],
+                "action_id":"V02VZ"}
+            },
+            {   "type":"section","block_id":"my_block4",
+                "text":{"type":"mrkdwn","text":"Chức vụ","verbatim":false},
+                "accessory":{"type":"static_select",
+                            "placeholder":{"type":"plain_text","text":"Chọn chức vụ","emoji":true},
+                            "options":[{
+                                "text":{"type":"plain_text","text":"Back-end","emoji":true},
+                                "value":"value-0"},
+                                {
+                                "text":{"type":"plain_text","text":"Front-end","emoji":true},"value":"value-1"}
+                                ,{"text":{"type":"plain_text","text":"Fullstack","emoji":true},"value":"value-2"},
+                                {"text":{"type":"plain_text","text":"Tester","emoji":true},"value":"value-3"},
+                                {"text":{"type":"plain_text","text":"Data-engin","emoji":true},"value":"value-3"}
+                                ],
+                            "action_id":"J5r8"}}],
+
+
+                "private_metadata":"",
+                "callback_id":"view_12",
+                "state":{
+                    "values":{
+                        "my_block":{
+                            "Fullname":{"type":"plain_text_input","value":"thanh"}
+                        },
+                        "my_block2":{"datepicker-action":{"type":"datepicker","selected_date":"1990-04-28"}},"my_block3":{" ":{"type":"radio_buttons","selected_option":null}},"my_block4":{"J5r8":{"type":"static_select","selected_option":null}}}},"hash":"1644550143.nc27xynJ","title":{"type":"plain_text","text":"Modal information","emoji":true},"clear_on_close":false,"notify_on_close":false,"close":null,"submit":{"type":"plain_text","text":"Gửi","emoji":true},"previous_view_id":null,"root_view_id":"V033BVB2KEU","app_id":"A032Z29GZ96","external_id":"","app_installed_team_id":"T0322K34SMU","bot_id":"B0326CQSQ2H"},"response_urls":[],"is_enterprise_install":false,"enterprise":null}
+
+
+                        {"=xJH+":{
+                            type":"radio_buttons",
+                            "selected_option":{
+                                "text":{"type":"mrkdwn","text":"nữ","verbatim":false},
+                                "value":"value-1"}}}
+                        {"Nmqy":{
+                            "type":"radio_buttons",
+                            "selected_option":{"text":{"type":"mrkdwn","text":"khác","verbatim":false},"value":"value-2"}}}
+                        {"this_is_an_action_id":
+                            {"type":"radio_buttons",
+                            "selected_option":{
+                                "text":{
+                                    "type":"plain_text",
+                                    "text":"nam","emoji":true},"value":"value-0"}}}
